@@ -15,7 +15,7 @@ export default class Comments extends Component {
     scriptEl.setAttribute('src', 'https://utteranc.es/client.js');
     scriptEl.setAttribute('crossorigin', 'anonymous');
     scriptEl.setAttribute('async', 'true');
-    scriptEl.setAttribute('repo', 'joaogn/utterances-to-challenge06');
+    scriptEl.setAttribute('repo', 'joaogn/ignite-react-challenge-06');
     scriptEl.setAttribute('issue-term', 'pathname');
     scriptEl.setAttribute('theme', 'dark-blue');
     this.commentBox.current.appendChild(scriptEl);
