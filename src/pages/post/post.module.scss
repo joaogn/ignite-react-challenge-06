@@ -1,0 +1,121 @@
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  img {
+    width: 100%;
+  }
+  article {
+    width: 95%;
+    max-width: 700px;
+    margin-bottom: 3rem;
+    a {
+      color: var(--primary);
+    }
+    b,
+    strong {
+      color: var(--white);
+    }
+    h1 {
+      margin-top: 5rem;
+      font-size: 3rem;
+    }
+    section {
+      margin-top: 1.5rem;
+      display: flex;
+      svg {
+        margin-right: 0.5rem;
+        color: var(--gray-300);
+      }
+      time {
+        display: flex;
+        align-items: center;
+        color: var(--gray-300);
+      }
+      p {
+        display: flex;
+        align-items: center;
+        color: var(--gray-300);
+        margin-left: 2rem;
+      }
+    }
+
+    small {
+      display: flex;
+      align-items: center;
+      color: var(--gray-300);
+      margin-top: 1rem;
+    }
+
+    div {
+      h2 {
+        margin-top: 2rem;
+        color: var(--white);
+      }
+      margin-top: 1rem;
+      color: var(--gray-300);
+      text-align: justify;
+      line-height: 1.5rem;
+      p {
+        padding: 0.25rem;
+      }
+      ol {
+        padding: 0.5rem;
+        margin-left: 1rem;
+      }
+      ul {
+        padding: 0.5rem;
+        margin-left: 1rem;
+      }
+    }
+  }
+}
+
+.divider {
+  width: 95%;
+  max-width: 700px;
+  height: 0px;
+
+  opacity: 0.1;
+
+  border: 1px solid var(--gray-100);
+}
+
+.previewButton {
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  max-width: 700px;
+  height: 3.6rem;
+  background: var(--white);
+  border-radius: 0.25rem;
+  color: var(--background);
+}
+
+.pagination {
+  margin-top: 3rem;
+  width: 95%;
+  max-width: 700px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5rem;
+  section {
+    width: 40%;
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 0.5rem;
+    }
+    a {
+      color: var(--primary);
+    }
+  }
+  section:last-child {
+    width: 40%;
+    text-align: right;
+  }
+}
